@@ -1,2 +1,2 @@
 # Gitea
-MariaDB SQL Script to run over and over
+If your going to use Maria DB with Gitea then currently as of 1.62 on Ubuntu 18.04 with Maria DB 10.4 there is a nissue where you might get an error about Error 1709: Index column size too large. The maximum column size is 767 bytes. The script in this repo if you run it against the DB a number of times i.e. go to http://localhost:3000/install enter details in Gitea install page click apply see error run commands in text file, click apply again in install page and repeat, it will eventually install.
